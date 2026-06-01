@@ -1,0 +1,57 @@
+=========================================
+0. UNIT TESTS OUTPUT (PASSED)
+=========================================
+python -m unittest discover -s tests
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK
+=========================================
+1. MY OWN PROJECT IDEA OUTPUT (CLI)
+=========================================
+An AI study assistant for university students that takes lecture PDFs or audio transcripts, generates concise summaries, and automatically extracts key concepts and potential exam questions.
+
+{
+  "project_title": "AI Study Assistant",
+  "domain": "Education",
+  "project_type": "AI Assistant",
+  "problem": "University students struggle to efficiently summarize lecture materials and identify key concepts for exam preparation.",
+  "target_user": "University students",
+  "data_source": "Lecture PDFs and audio transcripts",
+  "approach": "Utilize natural language processing to generate concise summaries, extract key concepts, and formulate potential exam questions from the provided materials.",
+  "deliverable": "A web-based application that allows students to upload lecture materials and receive summaries, key concepts, and exam questions.",
+  "evaluation_plan": [
+    "Conduct user testing with a small group of students to gather feedback on the accuracy and usefulness of the summaries and questions.",
+    "Compare generated summaries and questions against expert-created versions to assess quality."
+  ],
+  "risks": [
+    "Inaccurate summarization leading to misunderstanding of key concepts.",
+    "Difficulty in processing diverse formats of lecture materials.",
+    "User resistance to adopting a new tool."
+  ],
+  "next_steps": [
+    "Define the technical requirements and architecture for the application.",
+    "Gather a dataset of lecture materials for training and testing the AI models.",
+    "Develop a prototype and conduct initial testing with users."
+  ],
+  "readiness_score": 0.0
+}
+
+=========================================
+2. EVALUATION OUTPUT (EVALUATE)
+=========================================
+[
+  {
+    "idea": "I want to build a RAG assistant for municipal service documents so citizens can ask questions about permit requirements. The data source is PDF policy documents. The output will be a web app with cited answers.",
+    "project_title": "Municipal Service RAG Assistant",
+    "schema_score": 0.92,
+    "readiness_score": 0.0
+  },
+  {
+    "idea": "We want a classifier for hospital appointment messages. It should identify urgent requests and route them to the right team. We have historical support messages and labels.",
+    "project_title": "Hospital Appointment Message Classifier",
+    "schema_score": 0.92,
+    "readiness_score": 0.0
+  }
+]
